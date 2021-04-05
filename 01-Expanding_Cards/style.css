@@ -1,8 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-*{
-box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -35,12 +33,12 @@ body {
 }
 
 .panel h3 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  opacity: 0;
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
 }
 
 .panel.active {
@@ -56,9 +54,8 @@ body {
     .container {
         width: 100vw;
     }
-
     .panel:nth-of-type(4),
     .panel:nth-of-type(5) {
         display: none;
     }
- }
+}
