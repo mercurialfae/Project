@@ -1,12 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
 :root {
     --line-border-fill: #3498db;
     --line-border-empty: #e0e0e0
 }
+
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -25,16 +24,16 @@ body {
 }
 
 .progress-container {
-   display: flex;
-   justify-content: space-between; 
-   position: relative;
-   margin-bottom: 30px;
-   max-width: 100%;
-   width: 350px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
 }
 
 .progress-container::before {
-    content:'';
+    content: '';
     background-color: var(--line-border-empty);
     position: absolute;
     top: 50%;
