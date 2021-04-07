@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -41,11 +40,9 @@ body {
     height: 50px;
     width: 50px;
     transition: transform 0.3s ease;
-
 }
 
-.btn:focus, 
-.input:focus {
+.btn:focus, .input:focus {
     outline: none;
 }
 
@@ -53,6 +50,6 @@ body {
     width: 200px;
 }
 
-.search.active .btn{
+.search.active .btn {
     transform: translateX(198px)
 }
