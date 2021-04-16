@@ -35,7 +35,7 @@ function randomSelect() {
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
 
-        hightlightTag(randomTag)
+        highlightTag(randomTag)
 
         setTimeout(() => {
             unHighlightTag(randomTag)
