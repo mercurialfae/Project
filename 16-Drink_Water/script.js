@@ -1,7 +1,7 @@
 const smallCups = document.querySelectorAll('.cup-small')
-const listers = document.getElementByID('liters')
-const percentage = document.getElementByID('percentage')
-const remained = document.getElementByID('remained')
+const liters = document.getElementById('liters')
+const percentage = document.getElementById('percentage')
+const remained = document.getElementById('remained')
 
 updateBigCup()
 
@@ -44,6 +44,6 @@ function updateBigCup() {
     remained.style.height = 0
   } else {
     remained.style.visibility = 'visible'
-    listers.innerText = `${2 - (250 * fullCups) / 1000}L`
+    liters.innerText = `${2 - (250 * fullCups) / 1000}L`
   }
 }
