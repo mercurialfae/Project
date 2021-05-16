@@ -31,8 +31,8 @@ const createHeart = (e) => {
   const xInside = x - leftOffset
   const yInside = y - topOffset
 
-  heart.styte.top = `${yInside}px`
-  heart.styte.left = `${xInside}px`
+  heart.style.top = `${yInside}px`
+  heart.style.left = `${xInside}px`
 
   loveMe.appendChild(heart)
   times.innerHTML = ++timesClicked
